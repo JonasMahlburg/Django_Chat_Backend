@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'chat_app',
-    'corseheaders',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS =[
-    '127.0.0.1:5500',
+    'http://127.0.0.1:5500',
 ]
 
 ROOT_URLCONF = 'core.urls'
